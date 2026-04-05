@@ -17,8 +17,8 @@ This project implements a synchronous FIFO (First-In-First-Out) buffer using Ver
 - FIFO Type: Synchronous FIFO  
 - Reset: Asynchronous  
 - Write Pointer (wr_ptr) and Read Pointer (rd_ptr) used  
-- Full Condition: `(wr_ptr + 1) == rd_ptr`, this single thing took time for me to understand, yet its very crucial!
-- Empty Condition: `wr_ptr == rd_ptr`  
+- Full Condition: (wr_ptr + 1) == rd_ptr, this single thing took time for me to understand, yet its very crucial!
+- Empty Condition: wr_ptr == rd_ptr
 
 
 
@@ -35,10 +35,10 @@ This project implements a synchronous FIFO (First-In-First-Out) buffer using Ver
 
 ## Files
 
-- `fifo.v` → FIFO design  
-- `fifo_tb.v` → Testbench  
-- `Waveform.png` → Simulation waveform  
-- `Schematic_Diagram.png` → RTL schematic  
+- fifo.v → FIFO design  
+- fifo_tb.v → Testbench  
+- Waveform.png → Simulation waveform  
+- Schematic_Diagram.png → RTL schematic  
 
 
 
